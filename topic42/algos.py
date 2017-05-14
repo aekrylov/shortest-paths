@@ -20,6 +20,9 @@ def dijkstra_heap(nodes, node_init):
     q = PriorityQueue()
     q.put(node_init)
 
+    for node in nodes:
+        node.visited = False
+
     while not q.empty():
         top = q.get()
         if top.visited:

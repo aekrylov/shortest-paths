@@ -45,6 +45,7 @@ def to_weight_matrix(nodes):
     space complexity: Theta(|V|^2)
     
     :param nodes: set of nodes
+    :type nodes: Node
     :return: matrix w. w[i][j] is a weight of edge between node i and node j, or math.inf if there's no such edge
     """
     w = []
