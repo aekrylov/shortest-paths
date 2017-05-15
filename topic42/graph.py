@@ -24,8 +24,7 @@ class Graph:
             while True:
                 out_node_index = randint(0, vertices_number-1)
                 to_node_index = randint(0, vertices_number-1)
-                if self.nodes[out_node_index].add_out(to_node_index, randint(0, self.max_weight)):
+                if out_node_index != to_node_index and \
+                        self.nodes[out_node_index].add_out(to_node_index, randint(0, self.max_weight)):
                     edges_count += 1
                     break
-
-        print(edges_count)
