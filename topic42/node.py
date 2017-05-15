@@ -4,13 +4,15 @@ import math
 class Node:
     i = 0
 
-    outs = []
+    outs = set()
 
     def __init__(self, i) -> None:
         self.i = i
 
-    def add_out(self, node_to, w):
-        self.outs.append(Connection(node_to, w))
+    def add_out(self, node_to, w) -> bool:
+        r = node_to in self.outs
+        self.outs.add(Connection(node_to, w))
+        return r
 
     def __eq__(self, o: object) -> bool:
         return self.i == o.i
@@ -52,6 +54,12 @@ class Connection:
     def __iter__(self):
         yield self.node_to
         yield self.weight
+
+    def __eq__(self, other):
+        return self.node_to == other.node_to
+
+    def __hash__(self) -> int:
+        return self.node_to.__hash__()
 
 
 class Edge:
