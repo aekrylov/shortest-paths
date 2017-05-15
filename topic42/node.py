@@ -2,17 +2,18 @@ import math
 
 
 class Node:
-    i = 0
-
-    outs = set()
 
     def __init__(self, i) -> None:
+        self.outs = set()
         self.i = i
 
     def add_out(self, node_to, w) -> bool:
-        r = node_to in self.outs
-        self.outs.add(Connection(node_to, w))
-        return r
+        conn = Connection(node_to, w)
+        if conn in self.outs:
+            return False
+
+        self.outs.add(conn)
+        return True
 
     def __eq__(self, o: object) -> bool:
         return self.i == o.i
