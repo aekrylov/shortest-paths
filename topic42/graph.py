@@ -1,10 +1,9 @@
 from topic42.node import MarkedNode as mnode
-from random import randint
+from random import randrange
 
 
 class Graph:
 
-    nodes = []
     edges_factor = 0.2
     max_weight = 999
 
@@ -14,6 +13,7 @@ class Graph:
     def __init__(self, vertices_number):
         edges_number = int(vertices_number ** 2 * self.edges_factor)
         edges_count = 0
+        self.nodes = []
 
         # empty graph generation
         for i in range(vertices_number):
@@ -22,9 +22,9 @@ class Graph:
         # edges adding
         for i in range(edges_number):
             while True:
-                out_node_index = randint(0, vertices_number-1)
-                to_node_index = randint(0, vertices_number-1)
+                out_node_index = randrange(0, vertices_number)
+                to_node_index = randrange(0, vertices_number)
                 if out_node_index != to_node_index and \
-                        self.nodes[out_node_index].add_out(to_node_index, randint(0, self.max_weight)):
-                    edges_count += 1
+                        self.nodes[out_node_index].add_out(self.nodes[to_node_index],
+                                                           randrange(0, self.max_weight)):
                     break
