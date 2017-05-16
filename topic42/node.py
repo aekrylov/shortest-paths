@@ -33,8 +33,8 @@ class MarkedNode(Node):
     def __init__(self, i) -> None:
         super().__init__(i)
 
-    def __cmp__(self, other):
-        return self.d - other.d
+    def __lt__(self, other):
+        return self.d < other.d
 
     @classmethod
     def from_node(cls, node, d=None):

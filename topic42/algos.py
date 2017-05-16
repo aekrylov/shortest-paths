@@ -1,8 +1,14 @@
 import math
-from queue import PriorityQueue
+from .misc import PriorityQueue
 
 from topic42.misc import to_weight_matrix, to_edge_list
 from topic42.node import MarkedNode
+
+
+def reset_marks(nodes):
+    for node in nodes:
+        node.visited = False
+        node.d = math.inf
 
 
 def dijkstra_heap(nodes, node_init):
@@ -17,11 +23,12 @@ def dijkstra_heap(nodes, node_init):
      :type node_init: MarkedNode
     :return: 
     """
-    q = PriorityQueue()
-    q.put(node_init)
+    reset_marks(nodes)
 
-    for node in nodes:
-        node.visited = False
+    node_init.d = 0
+
+    q = PriorityQueue()
+    q.put(node_init, 0)
 
     while not q.empty():
         top = q.get()
@@ -32,12 +39,13 @@ def dijkstra_heap(nodes, node_init):
         for node_to, w in top:
             if node_to.visited:
                 continue
+
             d_new = top.d + w
             if d_new < node_to.d:
                 # one node can be put multiple times, with different distances.
                 # If the node was visited once, it will not be visited anymore
                 node_to.d = d_new
-                q.put(node_to)
+                q.put(node_to, d_new)
 
 
 def floyd_warshall(nodes):
@@ -63,7 +71,8 @@ def floyd_warshall(nodes):
 
 def ford_bellman(nodes, node_init):
     """
-    Computes shortest paths between node_init and all other nodes
+    Computes shortest paths between node_init and all other nodes.
+    This version first computes edge list from graph, thus sometimes ford_bellman2 will be much more efficient
     
     time complexity: Theta(|V| * |E|)
     
@@ -74,9 +83,20 @@ def ford_bellman(nodes, node_init):
     """
     edges = to_edge_list(nodes)
 
+    return ford_bellman2(nodes, edges, node_init)
+
+
+def ford_bellman2(nodes, edges, node_init):
+    """
+    Computes shortest paths between node_init and all other nodes.
+
+    :param nodes: 
+    :param edges: 
+    :param node_init: 
+    :return: 
+    """
     n = len(nodes)
-    for node in nodes:
-        node.d = math.inf
+    reset_marks(nodes)
 
     node_init.d = 0
 
