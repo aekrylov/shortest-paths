@@ -1,8 +1,7 @@
-import time
+from random import randrange
 
 from topic42.misc import to_edge_list
 from topic42.node import MarkedNode as mnode
-from random import randrange
 
 
 class Graph:

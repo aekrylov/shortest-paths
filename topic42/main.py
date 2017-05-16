@@ -2,7 +2,7 @@ import math
 import time
 
 from topic42.algos import dijkstra_heap, floyd_warshall, ford_bellman2
-from topic42.graph import Graph
+from topic42.graph import Graph, SparseGraph
 
 
 def test_algorithm(graph, algo, outfile, iterate=True):
@@ -24,6 +24,20 @@ def test_algorithm(graph, algo, outfile, iterate=True):
     return d
 
 
+def test_all(graph, dijkstra_results, ford_bellman_results, floyd_warshall_results):
+    def fb_test(nodes, init_node):
+        return ford_bellman2(nodes, graph.edges, init_node)
+
+    d_dijkstra = test_algorithm(graph, dijkstra_heap, dijkstra_results)
+    d_bellman = test_algorithm(graph, fb_test, ford_bellman_results)
+    d_warshall = test_algorithm(graph, floyd_warshall, floyd_warshall_results, False)
+
+    if d_dijkstra == d_bellman == d_warshall:
+        print("OK")
+    else:
+        print("FAIL")
+
+
 def test_simple_graph(orders):
     dijkstra_results = open('results/dijkstra.txt', 'w')
     floyd_warshall_results = open('results/floyd_warshall.txt', 'w')
@@ -31,26 +45,22 @@ def test_simple_graph(orders):
 
     for order in orders:
         graph = Graph(order)
+        test_all(graph, dijkstra_results, ford_bellman_results, floyd_warshall_results)
 
-        def fb_test(nodes, init_node):
-            return ford_bellman2(nodes, graph.edges, init_node)
 
-        d_dijkstra = test_algorithm(graph, dijkstra_heap, dijkstra_results)
-        d_bellman = test_algorithm(graph, fb_test, ford_bellman_results)
-        d_warshall = test_algorithm(graph, floyd_warshall, floyd_warshall_results, False)
+def test_sparse_graph(orders, powers):
+    for power in powers:
+        dijkstra_results = open('results/dijkstra_%.1f.txt' % power, 'w')
+        floyd_warshall_results = open('results/floyd_warshall_%.1f.txt' % power, 'w')
+        ford_bellman_results = open('results/ford_bellman_%.1f.txt' % power, 'w')
 
-        if d_dijkstra == d_bellman == d_warshall:
-            print("OK")
-        else:
-            print("FAIL")
+        for order in orders:
+            graph = SparseGraph(order, power)
+            test_all(graph, dijkstra_results, ford_bellman_results, floyd_warshall_results)
 
 
 if __name__ == '__main__':
-    orders = [i for i in range(100, 30001, 100)]
+    orders = [i for i in range(100, 501, 100)]
+    powers = [x/10 for x in range(11, 20, 2)]
 
-    # test_simple_graph(orders)
-    out = open('results/dijkstra.txt', 'w')
-
-    for order in orders:
-        graph = Graph(order)
-        test_algorithm(graph, dijkstra_heap, out)
+    test_sparse_graph(orders, powers)
