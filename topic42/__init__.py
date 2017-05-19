@@ -11,3 +11,6 @@ if __name__ == '__main__':
     node.add_out(node3, 4)
     node2.add_out(node, -4)
     print(node)
+
+    n = 100
+    nodes = [MarkedNode(i) for i in range(n)]

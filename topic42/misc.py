@@ -4,19 +4,10 @@ from math import inf
 from topic42.node import Edge, MarkedNode
 
 
-def _edge_list(node, edges) -> None:
-    outs = node.outs
-    node.outs = []
-
-    for node_to, w in outs:
-        edges.append(Edge(node, node_to, w))
-        _edge_list(node_to, edges)
-
-
 def to_edge_list(nodes) -> [Edge]:
     """
     Returns a list of Edge objects for a graph.
-    Each node is visited at least once, each edge is visited only once
+    Each node and each edge are visited exactly once
     
     time complexity: Theta(|V| + |E|) 
     
@@ -25,15 +16,8 @@ def to_edge_list(nodes) -> [Edge]:
     """
     edges = []
 
-    outs_dict = dict()
     for node in nodes:
-        outs_dict[node] = node.outs
-
-    for node in nodes:
-        _edge_list(node, edges)
-
-    for node in nodes:
-        node.outs = outs_dict[node]
+        edges += [Edge(node, node_to, w) for (node_to, w) in node]
 
     return edges
 

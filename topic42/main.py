@@ -58,4 +58,4 @@ if __name__ == '__main__':
         graph = Graph(order)
         test_algorithm(graph, dijkstra_heap, dijkstra_results)
         test_algorithm(graph, floyd_warshall, floyd_warshall_results, False)
-        # test_algorithm(graph, ford_bellman, ford_bellman_results)
+        test_algorithm(graph, ford_bellman, ford_bellman_results)
