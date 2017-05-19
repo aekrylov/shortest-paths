@@ -1,7 +1,7 @@
 import math
 import time
 
-from topic42.algos import dijkstra_heap, floyd_warshall, ford_bellman2
+from topic42.algos import dijkstra_heap, floyd_warshall, ford_bellman, ford_bellman2
 from topic42.graph import Graph
 
 
@@ -19,15 +19,15 @@ def test_algorithm(graph, algo, outfile, iterate=True):
     else:
         d = algo(graph.nodes)
 
-    outfile.write(str(order) + ' ' + str(time.clock() - time_before) + '\n')
+    outfile.write(str(order) + '\t' + str(len(graph.edges)) + '\t' + str(time.clock() - time_before) + '\n')
     outfile.flush()
     return d
 
 
 def test_simple_graph(orders):
-    dijkstra_results = open('results/dijkstra.txt', 'w')
-    floyd_warshall_results = open('results/floyd_warshall.txt', 'w')
-    ford_bellman_results = open('results/ford_bellman.txt', 'w')
+    # dijkstra_results = open('results/dijkstra.txt', 'w')
+    # floyd_warshall_results = open('results/floyd_warshall.txt', 'w')
+    # ford_bellman_results = open('results/ford_bellman.txt', 'w')
 
     for order in orders:
         graph = Graph(order)
@@ -46,11 +46,16 @@ def test_simple_graph(orders):
 
 
 if __name__ == '__main__':
-    orders = [i for i in range(100, 30001, 100)]
+    orders = [i for i in range(250, 30001, 250)]
+
+    dijkstra_results = open('results/dijkstra.txt', 'w')
+    floyd_warshall_results = open('results/floyd_warshall.txt', 'w')
+    ford_bellman_results = open('results/ford_bellman.txt', 'w')
 
     # test_simple_graph(orders)
-    out = open('results/dijkstra.txt', 'w')
 
     for order in orders:
         graph = Graph(order)
-        test_algorithm(graph, dijkstra_heap, out)
+        test_algorithm(graph, dijkstra_heap, dijkstra_results)
+        test_algorithm(graph, floyd_warshall, floyd_warshall_results, False)
+        # test_algorithm(graph, ford_bellman, ford_bellman_results)

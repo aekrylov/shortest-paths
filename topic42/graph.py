@@ -7,11 +7,11 @@ from random import randrange
 
 class Graph:
 
-    edges_factor = 0.2
+    edges_factor = 1.5
     max_weight = 999
 
     def E(self, N):
-        return int(N ** 2 * self.edges_factor)
+        return int(N ** self.edges_factor)
 
     def __iter__(self):
         return self.nodes.__iter__()
