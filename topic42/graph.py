@@ -6,11 +6,11 @@ from topic42.node import MarkedNode as mnode
 
 class Graph:
 
-    edges_factor = 0.2
+    edges_factor = 10/9
     max_weight = 999
 
     def E(self, N):
-        return int(N ** 2 * self.edges_factor)
+        return int(N ** self.edges_factor)
 
     def __iter__(self):
         return self.nodes.__iter__()
@@ -18,7 +18,6 @@ class Graph:
     def __init__(self, N):
         edges_number = self.E(N)
         self.nodes = []
-        print("Creating graph with %d nodes and %d edges" % (N, edges_number))
 
         # empty graph generation
         for i in range(N):
@@ -35,7 +34,7 @@ class Graph:
                     break
 
         self.edges = to_edge_list(self.nodes)
-
+        print("Created graph with %d nodes and %d edges" % (N, edges_number))
 
 class SparseGraph(Graph):
 

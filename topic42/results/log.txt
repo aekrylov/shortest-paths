@@ -1,0 +1,1998 @@
+/usr/bin/python3.5 /home/cmen/Dropbox/Coding/python/complexity_theory/topic42/main.py
+Creating graph with 250 nodes and 3952 edges
+Creating graph with 500 nodes and 11180 edges
+Creating graph with 750 nodes and 20539 edges
+Creating graph with 1000 nodes and 31622 edges
+Creating graph with 1250 nodes and 44194 edges
+Traceback (most recent call last):
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/main.py", line 58, in <module>
+    graph = Graph(order)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/graph.py", line 38, in __init__
+    self.edges = to_edge_list(self.nodes)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 33, in to_edge_list
+    _edge_list(node, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 13, in _edge_list
+    _edge_list(node_to, edges)
+  File "/home/cmen/Dropbox/Coding/python/complexity_theory/topic42/misc.py", line 12, in _edge_list
+    edges.append(Edge(node, node_to, w))
+RecursionError: maximum recursion depth exceeded
+
+Process finished with exit code 1
