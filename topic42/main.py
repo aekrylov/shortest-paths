@@ -46,16 +46,17 @@ def test_simple_graph(orders):
 
 
 if __name__ == '__main__':
-    orders = [i for i in range(250, 30001, 250)]
+    # orders = [i for i in range(10000, 10001, 250)]
+    orders = [10000]
 
-    dijkstra_results = open('results/dijkstra.txt', 'w')
-    floyd_warshall_results = open('results/floyd_warshall.txt', 'w')
-    ford_bellman_results = open('results/ford_bellman.txt', 'w')
+    dijkstra_results = open('results/10-9/dijkstra.txt', 'a')
+    # floyd_warshall_results = open('results/10-9/floyd_warshall.txt', 'w')
+    # ford_bellman_results = open('results/10-9/ford_bellman.txt', 'a')
 
     # test_simple_graph(orders)
 
     for order in orders:
         graph = Graph(order)
         test_algorithm(graph, dijkstra_heap, dijkstra_results)
-        test_algorithm(graph, floyd_warshall, floyd_warshall_results, False)
-        test_algorithm(graph, ford_bellman, ford_bellman_results)
+        # test_algorithm(graph, floyd_warshall, floyd_warshall_results, False)
+        # test_algorithm(graph, ford_bellman, ford_bellman_results)

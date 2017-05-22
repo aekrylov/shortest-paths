@@ -7,7 +7,7 @@ from random import randrange
 
 class Graph:
 
-    edges_factor = 1.5
+    edges_factor = 10/9
     max_weight = 999
 
     def E(self, N):
@@ -19,7 +19,6 @@ class Graph:
     def __init__(self, N):
         edges_number = self.E(N)
         self.nodes = []
-        print("Creating graph with %d nodes and %d edges" % (N, edges_number))
 
         # empty graph generation
         for i in range(N):
@@ -36,7 +35,7 @@ class Graph:
                     break
 
         self.edges = to_edge_list(self.nodes)
-
+        print("Created graph with %d nodes and %d edges" % (N, edges_number))
 
 class SparseGraph(Graph):
 
